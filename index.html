@@ -1,17 +1,53 @@
-<!DOCTYPE html>
-<!-- saved from url=(0058)file:///C:/Users/aenrv/development/yh.github.io/index.html -->
-<html lang="en" class="mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Android</title>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
-    <!-- Page styles -->
-    <link rel="stylesheet" href="./index_files/css">
-    <link rel="stylesheet" href="./index_files/icon">
-    <link rel="stylesheet" href="./index_files/material.min.css">
-    <link rel="stylesheet" href="./index_files/styles.css">
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Material Design Lite</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
+    <link rel="stylesheet" href="styles.css">
     <style>
     #view-source {
       position: fixed;
@@ -25,289 +61,139 @@
     </style>
   </head>
   <body>
-    <div class="mdl-layout__container"><div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded is-small-screen" data-upgraded=",MaterialLayout">
-
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div>
-        <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="./index_files/android-logo.png">
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field" data-upgraded=",MaterialButton">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field">
+    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
+      <main class="mdl-layout__content">
+        <div class="demo-blog__posts mdl-grid">
+          <div class="mdl-card coffee-pic mdl-cell mdl-cell--8-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">Coffee Pic</a></h3>
             </div>
-          </div>
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Phones</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Tablets</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Wear</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">TV</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Auto</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">One</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Play</a>
-            </nav>
-          </div>
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="./index_files/android-logo.png">
-          </span>
-          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button" data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons">more_vert</i>
-          <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
-          <div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--bottom-right"></div><ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="more-button" data-upgraded=",MaterialMenu,MaterialRipple">
-            <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">5.0 Lollipop<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-            <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">4.4 KitKat<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-            <li disabled="" class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">4.3 Jelly Bean<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-            <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Android History<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-          </ul></div>
-        </div>
-      </div>
-
-      <div class="android-drawer mdl-layout__drawer" aria-hidden="true">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="./index_files/android-logo-white.png">
-        </span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Phones</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Tablets</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Wear</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">TV</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Auto</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">One</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Play</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Versions</span>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Lollipop 5.0</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">KitKat 4.4</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Jelly Bean 4.3</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android history</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Official blog</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android on Google+</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android on Twitter</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">App developer resources</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android SDK</a>
-        </nav>
-      </div>
-
-      <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together. not the same.</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-          <div class="logo-font android-create-character">
-            <a href="file:///C:/Users/aenrv/development/yh.github.io/index.html"><img src="./index_files/andy.png"> create your android character</a>
-          </div>
-
-          <a href="file:///C:/Users/aenrv/development/yh.github.io/index.html#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
-              <i class="material-icons">expand_more</i>
-            <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
-          </a>
-        </div>
-        <div class="android-screen-section mdl-typography--text-center">
-          <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
-          <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                <img class="android-screen-image" src="./index_files/wear-silver-on.png">
-                <img class="android-screen-image" src="./index_files/wear-black-on.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android Wear</a>
-            </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                <img class="android-screen-image" src="./index_files/nexus6-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Phones</a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                <img class="android-screen-image" src="./index_files/nexus9-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Tablets</a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                <img class="android-screen-image" src="./index_files/tv-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Android TV</a>
-            </div>
-            <div class="android-auto android-screen">
-              <a class="android-image-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                <img class="android-screen-image" src="./index_files/auto-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Coming Soon: Android Auto</a>
-            </div>
-          </div>
-        </div>
-        <div class="android-wear-section">
-          <div class="android-wear-band">
-            <div class="android-wear-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
-              <p class="mdl-typography--headline mdl-typography--font-thin">
-                Android works perfectly with your favourite apps like Google Maps,
-                Calendar and YouTube.
-              </p>
-              <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">
-                  See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="file:///C:/Users/aenrv/development/yh.github.io/index.html" class="android-link mdl-typography--font-light">Customise your phone</a>
-            </p>
-          </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
-          <div class="android-card-container mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="./index_files/more-from-1.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get going on Android</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html" data-upgraded=",MaterialButton">
-                   Make the switch
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="./index_files/more-from-4.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html" data-upgraded=",MaterialButton">
-                   androidify.com
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="./index_files/more-from-2.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html" data-upgraded=",MaterialButton">
-                   Download now
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="./index_files/more-from-3.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="file:///C:/Users/aenrv/development/yh.github.io/index.html" data-upgraded=",MaterialButton">
-                   Find apps
-                   <i class="material-icons">chevron_right</i>
-                 </a>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
               </div>
             </div>
           </div>
-        </div>
-
-        <footer class="android-footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
+          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+            <button class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">
+              <i class="material-icons mdl-color-text--white" role="presentation">add</i>
+              <span class="visuallyhidden">add</span>
+            </button>
+            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
+              <img src="images/logo.png">
+              +1,337
             </div>
-            <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="file:///C:/Users/aenrv/development/yh.github.io/index.html#top">
-                Back to Top
-                <i class="material-icons">expand_less</i>
-              </a>
+            <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
+              <div>
+                <strong>The Newist</strong>
+              </div>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="menubtn">
+                <li class="mdl-menu__item">About</li>
+                <li class="mdl-menu__item">Message</li>
+                <li class="mdl-menu__item">Favorite</li>
+                <li class="mdl-menu__item">Search</li>
+              </ul>
+              <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">more_vert</i>
+                <span class="visuallyhidden">show menu</span>
+              </button>
             </div>
           </div>
-
-          <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+          <div class="mdl-card on-the-road-again mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">On the road again</a></h3>
+            </div>
+            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
           </div>
-
-          <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
-              Versions
-              <i class="material-icons">arrow_drop_up</i>
+          <div class="mdl-card amazing mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__title mdl-color-text--grey-50">
+              <h3 class="quote"><a href="entry.html">I couldn’t take any pictures but this was an amazing thing…</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="mdl-card shopping mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+              <h3><a href="entry.html">Shopping</a></h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt ullamco officia. Ex officia laborum et consequat duis.
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+              <div class="minilogo"></div>
+              <div>
+                <strong>The Newist</strong>
+                <span>2 days ago</span>
+              </div>
+            </div>
+          </div>
+          <nav class="demo-nav mdl-cell mdl-cell--12-col">
+            <div class="section-spacer"></div>
+            <a href="entry.html" class="demo-nav__button" title="show more">
+              More
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                <i class="material-icons" role="presentation">arrow_forward</i>
+              </button>
             </a>
-            <div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--top-left"></div><ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="version-dropdown" data-upgraded=",MaterialMenu,MaterialRipple">
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">5.0 Lollipop<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">4.4 KitKat<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">4.3 Jelly Bean<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Android History<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-            </ul></div>
-            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--top-left"></div><ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="developers-dropdown" data-upgraded=",MaterialMenu,MaterialRipple">
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">App developer resources<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Android Open Source Project<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Android SDK<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-              <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Android for Work<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
-            </ul></div>
-            <a class="android-link mdl-typography--font-light" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="file:///C:/Users/aenrv/development/yh.github.io/index.html">Privacy Policy</a>
+          </nav>
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+              <span class="visuallyhidden">Twitter</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+              <span class="visuallyhidden">Facebook</span>
+            </button>
+            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+              <span class="visuallyhidden">Google Plus</span>
+            </button>
           </div>
-
+          <div class="mdl-mini-footer--right-section">
+            <button class="mdl-mini-footer--social-btn social-btn__share">
+              <i class="material-icons" role="presentation">share</i>
+              <span class="visuallyhidden">share</span>
+            </button>
+          </div>
         </footer>
-      </div>
-    <div class="mdl-layout__obfuscator"></div></div></div>
-    
-    <script src="./index_files/material.min.js.ダウンロード"></script>
-  
-
-</body></html>
+      </main>
+      <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/blog/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View Source</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+  <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+      var link = el.querySelector('a');
+      if(!link) {
+        return;
+      }
+      var target = link.getAttribute('href');
+      if(!target) {
+        return;
+      }
+      el.addEventListener('click', function() {
+        location.href = target;
+      });
+    });
+  </script>
+</html>
